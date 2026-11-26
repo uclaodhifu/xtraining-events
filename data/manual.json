@@ -74,7 +74,10 @@
    "dy": "寰际中国自然职业赛 杭州",
    "url": "https://www.ifbbpro.com/schedule/",
    "time": "10:00",
-   "est": true
+   "est": true,
+   "ifbb": [
+    "2026 Huanji China Natural Pro Open"
+   ]
   },
   {
    "id": "hj-hz-pro",
@@ -88,7 +91,10 @@
    "dy": "寰际中国职业赛 杭州站",
    "url": "https://www.ifbbpro.com/schedule/",
    "time": "10:00",
-   "est": true
+   "est": true,
+   "ifbb": [
+    "2026 Huanji China Pro Open"
+   ]
   },
   {
    "id": "hj-bj-q",
@@ -117,7 +123,10 @@
    "dy": "寰际中国职业赛 北京站",
    "url": "https://open.musclegame.cn/events/694ff3091e9b3ae633aec6a9",
    "time": "10:00",
-   "est": true
+   "est": true,
+   "ifbb": [
+    "2026 Huanji China Pro Open"
+   ]
   },
   {
    "id": "kuwait",
@@ -818,7 +827,10 @@
    "url": "https://www.ifbbpro.com/schedule/",
    "region": "cn",
    "time": "10:00",
-   "est": true
+   "est": true,
+   "ifbb": [
+    "2026 Taiwan Pro Open"
+   ]
   },
   {
    "id": "bay",

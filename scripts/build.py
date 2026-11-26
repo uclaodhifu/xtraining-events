@@ -174,6 +174,7 @@ def mg_id(url):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--raw", help="用这个原始 JSON 文件代替联网")
+    ap.add_argument("--no-results", action="store_true", help="不去官网抓前三名")
     a = ap.parse_args()
 
     if a.raw:
@@ -208,10 +209,14 @@ def main():
         sys.exit(f"只抓到 {len(scraped)} 场，可能接口变了，这次不更新")
 
     events = manual + scraped
+    if not a.no_results:
+        from results import add_results
+        print("找比完的职业赛前三名…", file=sys.stderr)
+        add_results(events)
     events.sort(key=lambda x: (x.get("region", "cn") != "cn", x.get("date") or "9999"))
     out = {
         "updated": dt.datetime.now(BJ).date().isoformat(),
-        "source": "国内赛事来自 CBCIS 中国健美赛事信息系统 open.musclegame.cn；全球职业赛手动整理",
+        "source": "国内赛事来自 CBCIS 中国健美赛事信息系统 open.musclegame.cn；职业赛前三名来自 ifbbpro.com；全球职业赛手动整理",
         "counts": {"manual": len(manual), "scraped": len(scraped)},
         "events": events,
     }
