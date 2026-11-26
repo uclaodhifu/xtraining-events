@@ -1,10 +1,10 @@
-# 每天自动抓一次国内赛事，有变化才提交（提交后 Vercel 自动发布 events.json）
+# 每 3 天自动抓一次国内赛事，有变化才提交（提交后 Vercel 自动发布 events.json）
 # 用的是 Linux 机器，每次约 1 分钟，不占 Mac 额度
 name: 更新赛事
 
 on:
   schedule:
-    - cron: '17 22 * * *'   # 每天北京时间早上 6:17
+    - cron: '17 22 */3 * *'  # 每 3 天一次，北京时间早上 6:17（按日期 1、4、7…号，月底会差一两天）
   workflow_dispatch:         # 也可以在 Actions 页面手动点 Run workflow
   push:
     branches: [main]
