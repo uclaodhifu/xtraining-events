@@ -2751,6 +2751,11 @@
       "Levon Poghosyan",
       "Nader Ragheb",
       "Abdallah Almatar"
+     ],
+     "c": [
+      "Armenia",
+      "New Zealand",
+      "Kuwait"
      ]
     },
     {
@@ -2759,6 +2764,11 @@
       "Michael Van Niekerk",
       "Hashem Alfotewi",
       "Qaisar Alasi"
+     ],
+     "c": [
+      "South Africa",
+      "Saudi Arabia",
+      "Bahrain"
      ]
     }
    ]
@@ -2951,6 +2961,11 @@
       "Roman Iushchenko",
       "Dean White",
       "Andreas Christou"
+     ],
+     "c": [
+      "Ukraine",
+      "UK",
+      "Cyprus"
      ]
     },
     {
@@ -2959,6 +2974,11 @@
       "Piotr Wojtowicz",
       "Oliver Prochazka",
       "Jorge Herrera"
+     ],
+     "c": [
+      "Poland",
+      "Slovakia",
+      "Mexico"
      ]
     },
     {
@@ -2967,6 +2987,11 @@
       "Anastasia Korableva",
       "Paula Ranta",
       "Eleonore Vatin"
+     ],
+     "c": [
+      "Romania",
+      "Finland",
+      "UK"
      ]
     },
     {
@@ -2975,6 +3000,11 @@
       "Julia Cabarcos",
       "Lidia Dichiera",
       "Silvia Cuartero Martinez"
+     ],
+     "c": [
+      "Spain",
+      "Australia",
+      "Spain"
      ]
     },
     {
@@ -2983,6 +3013,11 @@
       "Sidy Pouye",
       "Omar Suleiman",
       "Marcus Benjamin-Privett"
+     ],
+     "c": [
+      "Spain",
+      "UK",
+      "UK"
      ]
     },
     {
@@ -2991,6 +3026,11 @@
       "Ahmed Juraybi",
       "Josef Kveton",
       "Pablo Llopis Munoz"
+     ],
+     "c": [
+      "Saudi Arabia",
+      "Czech Republic",
+      "Spain"
      ]
     },
     {
@@ -2999,6 +3039,11 @@
       "Beatriz Almeida",
       "Paulina Pontus",
       "Helen Zavitsanou"
+     ],
+     "c": [
+      "Brazil",
+      "Poland",
+      "Greece"
      ]
     },
     {
@@ -3007,6 +3052,11 @@
       "Viktoria Csicsayova",
       "Sara Punzetti",
       "Patrizia Vaccaro"
+     ],
+     "c": [
+      "Hungary",
+      "Italy",
+      "Italy"
      ]
     },
     {
@@ -3015,6 +3065,11 @@
       "Leonida Ciobu",
       "Liza Kazanina",
       "Carolina Cardoso"
+     ],
+     "c": [
+      "Moldova",
+      "Ukraine",
+      "Portugal"
      ]
     },
     {
@@ -3023,6 +3078,11 @@
       "Ana Alexandra Petreanu",
       "Inesa Shchypailo",
       "Laura Vanko-Kozma"
+     ],
+     "c": [
+      "Romania",
+      "Spain",
+      "Hungary"
      ]
     }
    ]
@@ -3342,6 +3402,12 @@
       "Michael Johnson",
       "Wagner Abreu",
       "Michael Lynn"
+     ],
+     "m": true,
+     "c": [
+      "USA",
+      "Brazil",
+      "USA"
      ]
     },
     {
@@ -3350,6 +3416,12 @@
       "Sheriff Taiwo",
       "Cordell Waddey",
       "Brandon Robichaux"
+     ],
+     "m": true,
+     "c": [
+      "USA",
+      "USA",
+      "USA"
      ]
     },
     {
@@ -3358,6 +3430,12 @@
       "Jordan Pierce",
       "Karine Hajjar",
       "Natashia Dallin"
+     ],
+     "m": true,
+     "c": [
+      "USA",
+      "Qatar",
+      "USA"
      ]
     },
     {
@@ -3366,6 +3444,12 @@
       "Jenn Courim",
       "Kelly Poteet",
       "Paola Leon"
+     ],
+     "m": true,
+     "c": [
+      "USA",
+      "USA",
+      "Mexico"
      ]
     },
     {
@@ -3374,9 +3458,16 @@
       "Lori-Anne Toone",
       "Laura Tarbell",
       "Natalie Waples-Donohue"
+     ],
+     "m": true,
+     "c": [
+      "Canada",
+      "USA",
+      "Canada"
      ]
     }
-   ]
+   ],
+   "resNote": "官网只公布了 40 岁以上大师组成绩"
   },
   {
    "id": "mrbig-nat",
@@ -3492,6 +3583,12 @@
       "Mark Perry",
       "William Ranson",
       "Richy Chan"
+     ],
+     "m": true,
+     "c": [
+      "USA",
+      "USA",
+      "Canada"
      ]
     },
     {
@@ -3500,9 +3597,16 @@
       "Laura Lee Musson",
       "Quanae Lill",
       "Alla Afanasyeva"
+     ],
+     "m": true,
+     "c": [
+      "USA",
+      "USA",
+      "USA"
      ]
     }
-   ]
+   ],
+   "resNote": "官网只公布了 40 岁以上大师组成绩"
   },
   {
    "id": "atlantic",
@@ -3528,6 +3632,12 @@
       "Chris Schaub",
       "Rachid Souki",
       "Chris Santamaria"
+     ],
+     "m": true,
+     "c": [
+      "USA",
+      "Brazil",
+      "USA"
      ]
     },
     {
@@ -3536,6 +3646,11 @@
       "Dylan Dawson",
       "Mudbi Favors",
       "Jarek Crew"
+     ],
+     "c": [
+      "South Africa",
+      "USA",
+      "USA"
      ]
     },
     {
@@ -3544,6 +3659,11 @@
       "Hannah Prause",
       "Hayden Mohler",
       "Santana Francisco"
+     ],
+     "c": [
+      "Germany",
+      "USA",
+      "USA"
      ]
     },
     {
@@ -3552,6 +3672,11 @@
       "Ricardo Cenat",
       "Carlos Deoliveira",
       "Jordan Clark"
+     ],
+     "c": [
+      "USA",
+      "Brazil",
+      "USA"
      ]
     },
     {
@@ -3560,6 +3685,12 @@
       "Troy Gardner",
       "Rachid Souki",
       "James Decamp"
+     ],
+     "m": true,
+     "c": [
+      "USA",
+      "Brazil",
+      "USA"
      ]
     },
     {
@@ -3568,6 +3699,11 @@
       "Manuella Lima",
       "Nicole Zenobia Graham",
       "Taylor Santucci"
+     ],
+     "c": [
+      "Brazil",
+      "USA",
+      "USA"
      ]
     },
     {
@@ -3576,6 +3712,11 @@
       "Taylor Crowell",
       "Mahsa Akbarimehr",
       "Iulia Baba"
+     ],
+     "c": [
+      "USA",
+      "USA",
+      "Romania"
      ]
     }
    ]
@@ -3602,6 +3743,11 @@
      "t": [
       "Daniel Pinillo Terrero",
       "Miguel Angel Lopez Blanco"
+     ],
+     "m": true,
+     "c": [
+      "Spain",
+      "Spain"
      ]
     },
     {
@@ -3610,6 +3756,12 @@
       "Simone Bestagno",
       "Christian De Ravallet",
       "Angelo Rossi"
+     ],
+     "m": true,
+     "c": [
+      "Italy",
+      "Switzerland",
+      "Italy"
      ]
     },
     {
@@ -3618,6 +3770,12 @@
       "Anna Terzo",
       "Emilia Dimitrova-Balkova",
       "M Del Mar Ortega Palao"
+     ],
+     "m": true,
+     "c": [
+      "Italy",
+      "Bulgaria",
+      "Spain"
      ]
     },
     {
@@ -3626,6 +3784,12 @@
       "Violeta Ostrbenk",
       "Joanna Romano",
       "Alessandra Patricia Da Silva"
+     ],
+     "m": true,
+     "c": [
+      "Slovenia",
+      "Spain",
+      "Italy"
      ]
     },
     {
@@ -3634,6 +3798,12 @@
       "Giuseppe Riserbato",
       "Miguel Abibe",
       "Darrell Rabess"
+     ],
+     "m": true,
+     "c": [
+      "Italy",
+      "Portugal",
+      "UK"
      ]
     },
     {
@@ -3642,6 +3812,12 @@
       "Daniel Pinillo Terrero",
       "Neil Andrews",
       "Marcelo Pedro Da Cruz"
+     ],
+     "m": true,
+     "c": [
+      "Spain",
+      "UK",
+      "Brazil"
      ]
     },
     {
@@ -3650,6 +3826,12 @@
       "Jessica Laghetto",
       "Julia Scherle",
       "Maria Ignacia Mas Delgado"
+     ],
+     "m": true,
+     "c": [
+      "Italy",
+      "Germany",
+      "Spain"
      ]
     },
     {
@@ -3658,6 +3840,12 @@
       "Kateryna Spievakova",
       "Raphaela Rafisa Santos Costa",
       "Martina Kurkova"
+     ],
+     "m": true,
+     "c": [
+      "Ukraine",
+      "Italy",
+      "Czech Republic"
      ]
     },
     {
@@ -3666,9 +3854,16 @@
       "Aras Shiwan",
       "Daniela Melo",
       "Mirian Paula Bertolini"
+     ],
+     "m": true,
+     "c": [
+      "Finland",
+      "Brazil",
+      "Brazil"
      ]
     }
-   ]
+   ],
+   "resNote": "官网只公布了 40 岁以上大师组成绩"
   },
   {
    "id": "spain-martinez",
