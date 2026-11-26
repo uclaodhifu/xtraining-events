@@ -108,6 +108,7 @@ def parse_results(page):
             continue
         up = [norm(c) for c in rows[hdr_i]]
         ni, pi = up.index("NAME"), up.index("PLACE")
+        ci = up.index("COUNTRY") if "COUNTRY" in up else None
         cn = div_cn(title)
         if not cn:
             continue
@@ -117,16 +118,26 @@ def parse_results(page):
                 continue
             m = re.match(r"^(\d+)", r[pi])
             if m and 1 <= int(m.group(1)) <= 3 and r[ni]:
-                podium.setdefault(int(m.group(1)), r[ni])
+                cty = r[ci] if ci is not None and ci < len(r) else ""
+                podium.setdefault(int(m.group(1)), (r[ni], cty))
         if 1 not in podium:
             continue
-        names = [podium[k] for k in sorted(podium)]
-        is_open = "OPEN" in norm(title) or "MASTERS" not in norm(title)
+        names = [podium[k] for k in sorted(podium)]   # [(名字, 国家)]
+        is_open = "MASTER" not in norm(title) and "OVER" not in norm(title)
         old = found.get(cn)
         if old is None or (is_open and not old[0]):
             found[cn] = (is_open, names)
     order = [v for _, v in DIVS]
-    return [{"d": k, "t": found[k][1]} for k in sorted(found, key=order.index)]
+    out = []
+    for k in sorted(found, key=order.index):
+        ppl = found[k][1]
+        item = {"d": k, "t": [n for n, _ in ppl]}
+        if not found[k][0]:
+            item["m"] = True                 # 只有大师组（40 岁以上）成绩
+        if any(c for _, c in ppl):
+            item["c"] = [c for _, c in ppl]   # 国家（英文），App 用来画国旗名字头像
+        out.append(item)
+    return out
 
 
 def fetch(url):
@@ -166,6 +177,13 @@ def page_matches(page, e):
     return any(k in page for k in keys)
 
 
+def apply(e, res):
+    e["res"] = res
+    e.pop("resNote", None)
+    if res and all(r.get("m") for r in res):
+        e["resNote"] = "官网只公布了 40 岁以上大师组成绩"
+
+
 def add_results(events):
     cache = json.load(open(CACHE)) if CACHE.exists() else {}
     today = dt.datetime.now(BJ).date()
@@ -180,8 +198,7 @@ def add_results(events):
         c = cache.get(e["id"])
         if c and c.get("res"):
             if not e.get("res") or len(c["res"]) > len(e["res"]):
-                e["res"] = c["res"]
-                e.pop("resNote", None)
+                apply(e, c["res"])
             if c.get("done") or age > RETRY_DAYS:
                 continue
         if age < 1 or age > LOOKBACK_DAYS:
@@ -204,8 +221,7 @@ def add_results(events):
                 cache[e["id"]] = {"url": u, "res": res, "checked": today.isoformat(),
                                   "done": age > 7}
                 if not e.get("res") or len(res) >= len(e["res"]):
-                    e["res"] = res
-                    e.pop("resNote", None)
+                    apply(e, res)
             break
     json.dump(cache, open(CACHE, "w"), ensure_ascii=False, indent=1)
     return events
