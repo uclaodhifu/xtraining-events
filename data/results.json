@@ -1,0 +1,323 @@
+{
+ "kuwait": {
+  "url": "https://www.ifbbpro.com/competition/2026-kuwait-pro/",
+  "res": [
+   {
+    "d": "古典健体",
+    "t": [
+     "Levon Poghosyan",
+     "Nader Ragheb",
+     "Abdallah Almatar"
+    ]
+   },
+   {
+    "d": "男子健体",
+    "t": [
+     "Michael Van Niekerk",
+     "Hashem Alfotewi",
+     "Qaisar Alasi"
+    ]
+   }
+  ],
+  "checked": "2026-11-27",
+  "done": true
+ },
+ "romania": {
+  "url": "https://www.ifbbpro.com/competition/2026-romania-muscle-fest-pro/",
+  "res": [
+   {
+    "d": "212 健美",
+    "t": [
+     "Roman Iushchenko",
+     "Dean White",
+     "Andreas Christou"
+    ]
+   },
+   {
+    "d": "古典健体",
+    "t": [
+     "Piotr Wojtowicz",
+     "Oliver Prochazka",
+     "Jorge Herrera"
+    ]
+   },
+   {
+    "d": "女子健美",
+    "t": [
+     "Anastasia Korableva",
+     "Paula Ranta",
+     "Eleonore Vatin"
+    ]
+   },
+   {
+    "d": "女子体格",
+    "t": [
+     "Julia Cabarcos",
+     "Lidia Dichiera",
+     "Silvia Cuartero Martinez"
+    ]
+   },
+   {
+    "d": "男子健体",
+    "t": [
+     "Sidy Pouye",
+     "Omar Suleiman",
+     "Marcus Benjamin-Privett"
+    ]
+   },
+   {
+    "d": "男子健美",
+    "t": [
+     "Ahmed Juraybi",
+     "Josef Kveton",
+     "Pablo Llopis Munoz"
+    ]
+   },
+   {
+    "d": "形体",
+    "t": [
+     "Beatriz Almeida",
+     "Paulina Pontus",
+     "Helen Zavitsanou"
+    ]
+   },
+   {
+    "d": "比基尼",
+    "t": [
+     "Viktoria Csicsayova",
+     "Sara Punzetti",
+     "Patrizia Vaccaro"
+    ]
+   },
+   {
+    "d": "健康身材",
+    "t": [
+     "Leonida Ciobu",
+     "Liza Kazanina",
+     "Carolina Cardoso"
+    ]
+   },
+   {
+    "d": "Fit Model",
+    "t": [
+     "Ana Alexandra Petreanu",
+     "Inesa Shchypailo",
+     "Laura Vanko-Kozma"
+    ]
+   }
+  ],
+  "checked": "2026-11-27",
+  "done": true
+ },
+ "maryland": {
+  "url": "https://www.ifbbpro.com/competition/2026-maryland-night-of-champions-pro/",
+  "res": [
+   {
+    "d": "古典健体",
+    "t": [
+     "Michael Johnson",
+     "Wagner Abreu",
+     "Michael Lynn"
+    ]
+   },
+   {
+    "d": "男子健体",
+    "t": [
+     "Sheriff Taiwo",
+     "Cordell Waddey",
+     "Brandon Robichaux"
+    ]
+   },
+   {
+    "d": "形体",
+    "t": [
+     "Jordan Pierce",
+     "Karine Hajjar",
+     "Natashia Dallin"
+    ]
+   },
+   {
+    "d": "比基尼",
+    "t": [
+     "Jenn Courim",
+     "Kelly Poteet",
+     "Paola Leon"
+    ]
+   },
+   {
+    "d": "Fit Model",
+    "t": [
+     "Lori-Anne Toone",
+     "Laura Tarbell",
+     "Natalie Waples-Donohue"
+    ]
+   }
+  ],
+  "checked": "2026-11-27",
+  "done": false
+ },
+ "hawaii": {
+  "url": "https://www.ifbbpro.com/competition/2026-shawn-rays-hawaiian-classic-masters-pro/",
+  "res": [
+   {
+    "d": "男子健体",
+    "t": [
+     "Mark Perry",
+     "William Ranson",
+     "Richy Chan"
+    ]
+   },
+   {
+    "d": "比基尼",
+    "t": [
+     "Laura Lee Musson",
+     "Quanae Lill",
+     "Alla Afanasyeva"
+    ]
+   }
+  ],
+  "checked": "2026-11-27",
+  "done": false
+ },
+ "atlantic": {
+  "url": "https://www.ifbbpro.com/competition/2026-atlantic-coast-pro/",
+  "res": [
+   {
+    "d": "212 健美",
+    "t": [
+     "Chris Schaub",
+     "Rachid Souki",
+     "Chris Santamaria"
+    ]
+   },
+   {
+    "d": "古典健体",
+    "t": [
+     "Dylan Dawson",
+     "Mudbi Favors",
+     "Jarek Crew"
+    ]
+   },
+   {
+    "d": "女子体格",
+    "t": [
+     "Hannah Prause",
+     "Hayden Mohler",
+     "Santana Francisco"
+    ]
+   },
+   {
+    "d": "男子健体",
+    "t": [
+     "Ricardo Cenat",
+     "Carlos Deoliveira",
+     "Jordan Clark"
+    ]
+   },
+   {
+    "d": "男子健美",
+    "t": [
+     "Troy Gardner",
+     "Rachid Souki",
+     "James Decamp"
+    ]
+   },
+   {
+    "d": "形体",
+    "t": [
+     "Manuella Lima",
+     "Nicole Zenobia Graham",
+     "Taylor Santucci"
+    ]
+   },
+   {
+    "d": "比基尼",
+    "t": [
+     "Taylor Crowell",
+     "Mahsa Akbarimehr",
+     "Iulia Baba"
+    ]
+   }
+  ],
+  "checked": "2026-11-27",
+  "done": false
+ },
+ "mrbig-masters": {
+  "url": "https://www.ifbbpro.com/competition/2026-mr-big-evolution-pro-portugal-masters/",
+  "res": [
+   {
+    "d": "212 健美",
+    "t": [
+     "Daniel Pinillo Terrero",
+     "Miguel Angel Lopez Blanco"
+    ]
+   },
+   {
+    "d": "古典健体",
+    "t": [
+     "Simone Bestagno",
+     "Christian De Ravallet",
+     "Angelo Rossi"
+    ]
+   },
+   {
+    "d": "女子健美",
+    "t": [
+     "Anna Terzo",
+     "Emilia Dimitrova-Balkova",
+     "M Del Mar Ortega Palao"
+    ]
+   },
+   {
+    "d": "女子体格",
+    "t": [
+     "Violeta Ostrbenk",
+     "Joanna Romano",
+     "Alessandra Patricia Da Silva"
+    ]
+   },
+   {
+    "d": "男子健体",
+    "t": [
+     "Giuseppe Riserbato",
+     "Miguel Abibe",
+     "Darrell Rabess"
+    ]
+   },
+   {
+    "d": "男子健美",
+    "t": [
+     "Daniel Pinillo Terrero",
+     "Neil Andrews",
+     "Marcelo Pedro Da Cruz"
+    ]
+   },
+   {
+    "d": "形体",
+    "t": [
+     "Jessica Laghetto",
+     "Julia Scherle",
+     "Maria Ignacia Mas Delgado"
+    ]
+   },
+   {
+    "d": "比基尼",
+    "t": [
+     "Kateryna Spievakova",
+     "Raphaela Rafisa Santos Costa",
+     "Martina Kurkova"
+    ]
+   },
+   {
+    "d": "健康身材",
+    "t": [
+     "Aras Shiwan",
+     "Daniela Melo",
+     "Mirian Paula Bertolini"
+    ]
+   }
+  ],
+  "checked": "2026-11-27",
+  "done": false
+ }
+}

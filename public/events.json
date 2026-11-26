@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-27",
- "source": "国内赛事来自 CBCIS 中国健美赛事信息系统 open.musclegame.cn；全球职业赛手动整理",
+ "source": "国内赛事来自 CBCIS 中国健美赛事信息系统 open.musclegame.cn；职业赛前三名来自 ifbbpro.com；全球职业赛手动整理",
  "counts": {
   "manual": 38,
   "scraped": 154
@@ -146,7 +146,10 @@
    "dy": "寰际中国自然职业赛 杭州",
    "url": "https://www.ifbbpro.com/schedule/",
    "time": "10:00",
-   "est": true
+   "est": true,
+   "ifbb": [
+    "2026 Huanji China Natural Pro Open"
+   ]
   },
   {
    "id": "hj-hz-pro",
@@ -160,7 +163,10 @@
    "dy": "寰际中国职业赛 杭州站",
    "url": "https://www.ifbbpro.com/schedule/",
    "time": "10:00",
-   "est": true
+   "est": true,
+   "ifbb": [
+    "2026 Huanji China Pro Open"
+   ]
   },
   {
    "id": "mg-698ae2e24d1e51d41a780da5",
@@ -226,7 +232,10 @@
    "url": "https://www.ifbbpro.com/schedule/",
    "region": "cn",
    "time": "10:00",
-   "est": true
+   "est": true,
+   "ifbb": [
+    "2026 Taiwan Pro Open"
+   ]
   },
   {
    "id": "mg-696a48ad1cdf3402661dfcdb",
@@ -488,7 +497,10 @@
    "dy": "寰际中国职业赛 北京站",
    "url": "https://open.musclegame.cn/events/694ff3091e9b3ae633aec6a9",
    "time": "10:00",
-   "est": true
+   "est": true,
+   "ifbb": [
+    "2026 Huanji China Pro Open"
+   ]
   },
   {
    "id": "mg-6909f99d1c79249bf30fc486",
@@ -2731,7 +2743,25 @@
    "url": "https://www.ifbbpro.com/schedule/",
    "region": "world",
    "tz": 3,
-   "lt": "10:00"
+   "lt": "10:00",
+   "res": [
+    {
+     "d": "古典健体",
+     "t": [
+      "Levon Poghosyan",
+      "Nader Ragheb",
+      "Abdallah Almatar"
+     ]
+    },
+    {
+     "d": "男子健体",
+     "t": [
+      "Michael Van Niekerk",
+      "Hashem Alfotewi",
+      "Qaisar Alasi"
+     ]
+    }
+   ]
   },
   {
    "id": "lv-karr",
@@ -2913,7 +2943,89 @@
    "url": "https://www.ifbbpro.com/schedule/",
    "region": "world",
    "tz": 2,
-   "lt": "10:00"
+   "lt": "10:00",
+   "res": [
+    {
+     "d": "212 健美",
+     "t": [
+      "Roman Iushchenko",
+      "Dean White",
+      "Andreas Christou"
+     ]
+    },
+    {
+     "d": "古典健体",
+     "t": [
+      "Piotr Wojtowicz",
+      "Oliver Prochazka",
+      "Jorge Herrera"
+     ]
+    },
+    {
+     "d": "女子健美",
+     "t": [
+      "Anastasia Korableva",
+      "Paula Ranta",
+      "Eleonore Vatin"
+     ]
+    },
+    {
+     "d": "女子体格",
+     "t": [
+      "Julia Cabarcos",
+      "Lidia Dichiera",
+      "Silvia Cuartero Martinez"
+     ]
+    },
+    {
+     "d": "男子健体",
+     "t": [
+      "Sidy Pouye",
+      "Omar Suleiman",
+      "Marcus Benjamin-Privett"
+     ]
+    },
+    {
+     "d": "男子健美",
+     "t": [
+      "Ahmed Juraybi",
+      "Josef Kveton",
+      "Pablo Llopis Munoz"
+     ]
+    },
+    {
+     "d": "形体",
+     "t": [
+      "Beatriz Almeida",
+      "Paulina Pontus",
+      "Helen Zavitsanou"
+     ]
+    },
+    {
+     "d": "比基尼",
+     "t": [
+      "Viktoria Csicsayova",
+      "Sara Punzetti",
+      "Patrizia Vaccaro"
+     ]
+    },
+    {
+     "d": "健康身材",
+     "t": [
+      "Leonida Ciobu",
+      "Liza Kazanina",
+      "Carolina Cardoso"
+     ]
+    },
+    {
+     "d": "Fit Model",
+     "t": [
+      "Ana Alexandra Petreanu",
+      "Inesa Shchypailo",
+      "Laura Vanko-Kozma"
+     ]
+    }
+   ]
   },
   {
    "id": "fitpira",
@@ -3223,7 +3335,48 @@
    "region": "world",
    "tz": -5,
    "lt": "10:00",
-   "resNote": "官网只公布了 40 岁以上大师组成绩"
+   "res": [
+    {
+     "d": "古典健体",
+     "t": [
+      "Michael Johnson",
+      "Wagner Abreu",
+      "Michael Lynn"
+     ]
+    },
+    {
+     "d": "男子健体",
+     "t": [
+      "Sheriff Taiwo",
+      "Cordell Waddey",
+      "Brandon Robichaux"
+     ]
+    },
+    {
+     "d": "形体",
+     "t": [
+      "Jordan Pierce",
+      "Karine Hajjar",
+      "Natashia Dallin"
+     ]
+    },
+    {
+     "d": "比基尼",
+     "t": [
+      "Jenn Courim",
+      "Kelly Poteet",
+      "Paola Leon"
+     ]
+    },
+    {
+     "d": "Fit Model",
+     "t": [
+      "Lori-Anne Toone",
+      "Laura Tarbell",
+      "Natalie Waples-Donohue"
+     ]
+    }
+   ]
   },
   {
    "id": "mrbig-nat",
@@ -3332,7 +3485,24 @@
    "region": "world",
    "tz": -10,
    "lt": "10:00",
-   "resNote": "官网只公布了 40 岁以上大师组成绩"
+   "res": [
+    {
+     "d": "男子健体",
+     "t": [
+      "Mark Perry",
+      "William Ranson",
+      "Richy Chan"
+     ]
+    },
+    {
+     "d": "比基尼",
+     "t": [
+      "Laura Lee Musson",
+      "Quanae Lill",
+      "Alla Afanasyeva"
+     ]
+    }
+   ]
   },
   {
    "id": "atlantic",
@@ -3353,15 +3523,62 @@
    "lt": "10:00",
    "res": [
     {
+     "d": "212 健美",
+     "t": [
+      "Chris Schaub",
+      "Rachid Souki",
+      "Chris Santamaria"
+     ]
+    },
+    {
+     "d": "古典健体",
+     "t": [
+      "Dylan Dawson",
+      "Mudbi Favors",
+      "Jarek Crew"
+     ]
+    },
+    {
+     "d": "女子体格",
+     "t": [
+      "Hannah Prause",
+      "Hayden Mohler",
+      "Santana Francisco"
+     ]
+    },
+    {
+     "d": "男子健体",
+     "t": [
+      "Ricardo Cenat",
+      "Carlos Deoliveira",
+      "Jordan Clark"
+     ]
+    },
+    {
+     "d": "男子健美",
+     "t": [
+      "Troy Gardner",
+      "Rachid Souki",
+      "James Decamp"
+     ]
+    },
+    {
      "d": "形体",
      "t": [
       "Manuella Lima",
       "Nicole Zenobia Graham",
       "Taylor Santucci"
      ]
+    },
+    {
+     "d": "比基尼",
+     "t": [
+      "Taylor Crowell",
+      "Mahsa Akbarimehr",
+      "Iulia Baba"
+     ]
     }
-   ],
-   "resNote": "其他组别官网还没整理完"
+   ]
   },
   {
    "id": "mrbig-masters",
@@ -3379,7 +3596,79 @@
    "region": "world",
    "tz": 0,
    "lt": "10:00",
-   "resNote": "官网只公布了 40 岁以上大师组成绩"
+   "res": [
+    {
+     "d": "212 健美",
+     "t": [
+      "Daniel Pinillo Terrero",
+      "Miguel Angel Lopez Blanco"
+     ]
+    },
+    {
+     "d": "古典健体",
+     "t": [
+      "Simone Bestagno",
+      "Christian De Ravallet",
+      "Angelo Rossi"
+     ]
+    },
+    {
+     "d": "女子健美",
+     "t": [
+      "Anna Terzo",
+      "Emilia Dimitrova-Balkova",
+      "M Del Mar Ortega Palao"
+     ]
+    },
+    {
+     "d": "女子体格",
+     "t": [
+      "Violeta Ostrbenk",
+      "Joanna Romano",
+      "Alessandra Patricia Da Silva"
+     ]
+    },
+    {
+     "d": "男子健体",
+     "t": [
+      "Giuseppe Riserbato",
+      "Miguel Abibe",
+      "Darrell Rabess"
+     ]
+    },
+    {
+     "d": "男子健美",
+     "t": [
+      "Daniel Pinillo Terrero",
+      "Neil Andrews",
+      "Marcelo Pedro Da Cruz"
+     ]
+    },
+    {
+     "d": "形体",
+     "t": [
+      "Jessica Laghetto",
+      "Julia Scherle",
+      "Maria Ignacia Mas Delgado"
+     ]
+    },
+    {
+     "d": "比基尼",
+     "t": [
+      "Kateryna Spievakova",
+      "Raphaela Rafisa Santos Costa",
+      "Martina Kurkova"
+     ]
+    },
+    {
+     "d": "健康身材",
+     "t": [
+      "Aras Shiwan",
+      "Daniela Melo",
+      "Mirian Paula Bertolini"
+     ]
+    }
+   ]
   },
   {
    "id": "spain-martinez",
