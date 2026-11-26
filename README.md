@@ -18,3 +18,5 @@ X Training App「赛事」页的数据源。每周自动抓取国内健美/健�
 ## 定时任务
 `.github/workflows/update.yml`：每周一次（北京时间周一 6:17），在 Linux 机器上跑，约 1 分钟，有变化才提交。
 抓到的少于 20 场会当作接口出问题，不覆盖旧数据。
+
+数据地址：https://xtraining-events.vercel.app/events.json（Vercel 项目 xtraining-events，Root Directory = public）
