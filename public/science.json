@@ -1,0 +1,23 @@
+{
+  "updated": "2026-11-27",
+  "version": 1,
+  "refs": [
+    {"year": "2026", "text": "Phillips SM, et al. ACSM Position Stand: Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults.", "src": "Med Sci Sports Exerc, 2026"},
+    {"year": "2026", "text": "Lyristakis P, et al. The Influence of Individual Resistance Training Variables on Muscle Strength: A Systematic Review and Meta-analysis.", "src": "Sports Med, 2026", "url": "https://doi.org/10.1007/s40279-026-02432-5"},
+    {"year": "2023", "text": "Refalo MC, et al. Influence of Resistance Training Proximity-to-Failure on Skeletal Muscle Hypertrophy: A Systematic Review with Meta-analysis.", "src": "Sports Med, 2023", "url": "https://pubmed.ncbi.nlm.nih.gov/36334240/"},
+    {"year": "2023", "text": "Wolf M, et al. Partial vs Full Range of Motion Resistance Training: A Systematic Review and Meta-analysis.", "src": "Int J Strength Cond, 2023"},
+    {"year": "2022", "text": "Plotkin D, et al. Progressive Overload Without Progressing Load? The Effects of Load or Repetition Progression on Muscular Adaptations.", "src": "PeerJ, 2022", "url": "https://pubmed.ncbi.nlm.nih.gov/36199287/"},
+    {"year": "2021", "text": "Lopez P, et al. Resistance Training Load Effects on Muscle Hypertrophy and Strength Gain: Systematic Review and Network Meta-analysis.", "src": "Med Sci Sports Exerc, 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/33433148/"}
+  ],
+  "rules": {
+    "setsMin": 10, "setsMax": 20,
+    "freqMin": 2,
+    "repsMin": 5, "repsMax": 20,
+    "gapMax": 5,
+    "setsTip": "建议每个部位每周 10 组以上，太多恢复不过来",
+    "freqTip": "同一部位每周练 2 次以上效果更好",
+    "repsTip": "增肌在 5–20 次都有效，接近力竭比次数本身更重要",
+    "gapTip": "同一部位隔 2–5 天练一次比较合适",
+    "longTip": "拉长位练得少。研究显示在肌肉拉长的位置发力更利于增肌，可以加："
+  }
+}
